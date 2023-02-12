@@ -1,0 +1,12 @@
+{
+  "apps": {
+    "name": "monitor",
+    "script": "index.js",
+    "watch": true,
+    "ignore_watch": ["node_modules", "logs"],
+    "instances": 1,
+    "error_file": "./logs/index_err.log",
+    "out_file": "./logs/index_out.log",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss"
+  }
+}
