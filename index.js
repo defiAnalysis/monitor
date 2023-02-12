@@ -140,7 +140,7 @@ DegreeHeatsCache.on("expired", async (address, event) => {
     link: "goerli",
   };
 
-  let sqlString = ` select id from ngp_rank where number = ${number}`;
+  let sqlString = ` select id from ngp_rank where number = "${number}"`;
 
   let Ret = [];
   try {

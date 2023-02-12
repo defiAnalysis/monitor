@@ -31,3 +31,35 @@
 2023-02-12 16:23:23: endpoint: https://endpoints.omniatech.io/v1/eth/goerli/public
 2023-02-12 16:23:53: endpoint: https://endpoints.omniatech.io/v1/eth/goerli/public
 2023-02-12 16:24:04: endpoint: https://endpoints.omniatech.io/v1/eth/goerli/public
+2023-02-12 16:24:13: endpoint: https://endpoints.omniatech.io/v1/eth/goerli/public
+2023-02-12 16:24:21: endpoint: https://endpoints.omniatech.io/v1/eth/goerli/public
+2023-02-12 16:24:22: endpoint: https://endpoints.omniatech.io/v1/eth/goerli/public
+2023-02-12 16:24:25: endpoint: https://endpoints.omniatech.io/v1/eth/goerli/public
+2023-02-12 16:24:31: endpoint: https://endpoints.omniatech.io/v1/eth/goerli/public
+2023-02-12 16:27:41: Sun Feb 12 2023 16:27:41 GMT+0800 (中国标准时间)consumer msg: [{"Removed":false,"LogIndex":148,"TransactionIndex":20,"TransactionHash":"0xcff5b5965a8a46533001ac817fcc9c4e2dd2af7098194048f0ca2804b4e6a7a2","BlockNumber":8478165,"BlockHash":"0x22a0af13bacc1394919feef6092e5e8ba0b6719f639a868e7dde3c3127af3ffc","Address":"0x2fad18285f4192a130752030d07fa39f9923ad16","Data":"0x00000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000001a0b0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000a4531313433333232353800000000000000000000000000000000000000000000","Topics":["0xe5c486bee358a5fff5e4d70dc5fdaaf14806df125ffde843a8c40db608264812"]},{"Removed":false,"LogIndex":149,"TransactionIndex":20,"TransactionHash":"0xcff5b5965a8a46533001ac817fcc9c4e2dd2af7098194048f0ca2804b4e6a7a2","BlockNumber":8478165,"BlockHash":"0x22a0af13bacc1394919feef6092e5e8ba0b6719f639a868e7dde3c3127af3ffc","Address":"0x2fad18285f4192a130752030d07fa39f9923ad16","Data":"0x00000000000000000000000075bc9fbd1f907695a5ab823772f78981be0bfc8300000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000063e89fd4000000000000000000000000000000000000000000000000000000000000000a4531313433333232353800000000000000000000000000000000000000000000","Topics":["0x1309ab74031e37b46ee8ce9ff667a17a5c69a500a05d167e4c89ad8b0bc40bf9"]}]
+2023-02-12 16:27:41: Sun Feb 12 2023 16:27:41 GMT+0800 (中国标准时间)key====: 0x2fad18285f4192a130752030d07fa39f9923ad16_1480xcff5b5965a8a46533001ac817fcc9c4e2dd2af7098194048f0ca2804b4e6a7a2
+2023-02-12 16:27:41: Sun Feb 12 2023 16:27:41 GMT+0800 (中国标准时间)key====: 0x2fad18285f4192a130752030d07fa39f9923ad16_1490xcff5b5965a8a46533001ac817fcc9c4e2dd2af7098194048f0ca2804b4e6a7a2
+2023-02-12 16:27:41: Sun Feb 12 2023 16:27:41 GMT+0800 (中国标准时间)======ClaimMintCache Event=====
+2023-02-12 16:27:41: eventData.args: [
+  '0x75bC9FBD1F907695A5ab823772F78981bE0BFC83',
+  'E114332258',
+  BigNumber { _hex: '0x63e89fd4', _isBigNumber: true },
+  user: '0x75bC9FBD1F907695A5ab823772F78981bE0BFC83',
+  number: 'E114332258',
+  time: BigNumber { _hex: '0x63e89fd4', _isBigNumber: true }
+]
+2023-02-12 16:27:41: ====insertData===: {
+  user: '0x75bC9FBD1F907695A5ab823772F78981bE0BFC83',
+  number: 'E114332258',
+  updateTs: '1676189652',
+  createTs: '1676189652'
+}
+2023-02-12 16:27:41: Sun Feb 12 2023 16:27:41 GMT+0800 (中国标准时间)======DegreeHeatsCache Event=====
+2023-02-12 16:27:41: eventData.args: [
+  'E114332258',
+  BigNumber { _hex: '0x1a0b', _isBigNumber: true },
+  BigNumber { _hex: '0x01', _isBigNumber: true },
+  number: 'E114332258',
+  heat: BigNumber { _hex: '0x1a0b', _isBigNumber: true },
+  len: BigNumber { _hex: '0x01', _isBigNumber: true }
+]

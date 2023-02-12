@@ -16,3 +16,21 @@
   syscall: 'connect',
   fatal: true
 }
+2023-02-12 16:27:51: Sun Feb 12 2023 16:27:51 GMT+0800 (中国标准时间)catch error: Error: connect ETIMEDOUT
+    at PoolConnection._handleTimeoutError (/Users/hayden/dev/gopath/dapp/monitor/node_modules/mysql2/lib/connection.js:189:17)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+2023-02-12 16:27:51: Sun Feb 12 2023 16:27:51 GMT+0800 (中国标准时间)catch error: Error: connect ETIMEDOUT
+    at PoolConnection._handleTimeoutError (/Users/hayden/dev/gopath/dapp/monitor/node_modules/mysql2/lib/connection.js:189:17)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
